@@ -1,0 +1,39 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "question": "What does HTTP stand for?",
+      "answer": "Hypertext Transfer Protocol"
+    },
+    {
+      "id": 2,
+      "question": "What type of protocol is HTTP?",
+      "answer": "A stateless protocol"
+    },
+    {
+      "id": 3,
+      "question": "What does URL stand for?",
+      "answer": "Uniform Resource Locator"
+    },
+    {
+      "id": 4,
+      "question": "What part of \"http://www.example.com/search?item=vw+beetle\" is \"http:\"?",
+      "answer": "The Protocol"
+    },
+    {
+      "id": 5,
+      "question": "What part of \"http://www.example.com/search?item=vw+beetle\" is \"//www.example.com/\"?",
+      "answer": "The Domain"
+    },
+    {
+      "id": 6,
+      "question": "What part of \"http://www.example.com/search?item=vw+beetle\" is \"search\"?",
+      "answer": "The Path"
+    },
+    {
+      "id": 7,
+      "question": "What part of \"http://www.example.com/search?item=vw+beetle\" is \"?item=vw+beetle\"?",
+      "answer": "The Parameters"
+    }
+  ]
+}
