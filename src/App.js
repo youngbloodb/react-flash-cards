@@ -3,31 +3,49 @@ import './App.css';
 import Card from './Card/Card';
 import DrawButton from './DrawButton/DrawButton';
 
-import http_cards from './Data/http_cards';
+import QnA from './Data/QnA';
 
-function App() {
-  //mockdata for init development
-  const [cards, setCards] = useState(http_cards.cards);
+const App = () => {
+  //states
+  const [cards, setCards] = useState(QnA.cards);
   const [currentCard, setCurrentCard] = useState({});
+
+  //randomize cards functionality
   useEffect(() => {
     const currentCards = cards;
     setCurrentCard(getRandomCard(currentCards));
   }, [cards, currentCard]);
 
-  function getRandomCard(currentCards) {
+  const getRandomCard = (currentCards) => {
     const card = currentCards[Math.floor(Math.random() * currentCards.length)];
     return card;
   }
 
-  function updateCard() {
+  const updateCard = () => {
     const currentCards = cards;
     setCurrentCard(getRandomCard(currentCards));
   }
 
+  //topics selection
+  const [currentTopic, setCurrentTopic] = useState(QnA.topics[0]);
+  const getTopicOptions = (topics) => {
+    return topics.map((location, index) => <option key={index}>{location}</option>);
+  }
+
+  const topicChange = (evt) => {
+    const elem = evt.currentTarget;
+    const elemValue = elem.options[elem.selectedIndex].value;
+    console.log('elemValue: ', elemValue);
+    setCurrentTopic(elemValue)
+  }
+
   return (
     <div className='App'>
+      <select className="topicsSelect" onChange={evt => topicChange(evt)}>
+        {getTopicOptions(QnA.topics)}
+      </select>
       <div className='cardRow'>
-        <Card question={currentCard.question} answer={currentCard.answer} />
+        <Card question={currentCard.question} answer={currentCard.answer} topic={currentCard.topic} />
       </div>
       <div className='buttonRow'>
         <DrawButton drawCard={updateCard} />

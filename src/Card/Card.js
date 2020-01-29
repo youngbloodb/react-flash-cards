@@ -1,8 +1,17 @@
 import React from 'react';
 import './Card.css';
 
+const charAtXToUpper = (idx, str) => {
+  return str.charAt(idx).toUpperCase() + str.substring(idx + 1);
+}
+
 const Card = (props) => {
-  const { question, answer } = props;
+  let { question, answer, topic } = props;
+  if(question !== undefined && answer !== undefined){
+    question = charAtXToUpper(0, question); 
+    answer = charAtXToUpper(0, answer); 
+  }
+
   return (
     <div className='card-container'>
       <div className='card'>
@@ -13,6 +22,7 @@ const Card = (props) => {
           <div className='answer'>{answer}</div>
         </div>
       </div>
+      <div className='topic'>{topic}</div>
     </div>
   );
 };
