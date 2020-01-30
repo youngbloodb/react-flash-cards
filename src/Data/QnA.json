@@ -62,7 +62,7 @@
     {
       "id": 10,
       "question": "What is the Control Unit?",
-      "answer": "a defined, physically separated unit that interacts with other machine parts; coordinates operations of the other units of a computer; sends control signals to other units and registers their states",
+      "answer": "A defined, physically separated unit that coordinates operations of the other units of a computer; sends control signals to other units and registers their states",
       "topic": "Transition to CS 1 - Lecture 1"
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "id": 14,
-      "question": "what is the data format is used at all stages of processing within a computer?",
+      "question": "what data format is used at all stages of processing within a computer?",
       "answer": "binary code format",
       "topic": "Transition to CS 1 - Lecture 1"
     },
