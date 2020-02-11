@@ -1,5 +1,6 @@
 {
   "name": "react-flash-cards",
+  "homepage": "http://10.88.63.11/react-flash-cards/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

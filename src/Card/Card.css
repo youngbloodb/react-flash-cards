@@ -1,5 +1,4 @@
 .card-container {
-  cursor: pointer;
   height: 600px;
   width: 400px;
   perspective: 800px;
@@ -17,8 +16,13 @@
   transition: all 0.4s ease-in-out;
 }
 
-.card:hover {
+.card--back {
   transform: rotateY(180deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.card--front {
+  transform: rotateY(0deg);
   transition: all 0.4s ease-in-out;
 }
 

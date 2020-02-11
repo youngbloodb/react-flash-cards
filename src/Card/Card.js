@@ -3,11 +3,11 @@ import './Card.css';
 import { Markup } from 'interweave';
 
 const Card = props => {
-  let { question, answer, topic } = props;
+  let { question, answer, topic, face } = props;
 
   return (
     <div className='card-container'>
-      <div className='card'>
+      <div className={`card card--${face}`}>
         <div className='front'>
           <div className='question'>
             <Markup content={question} />

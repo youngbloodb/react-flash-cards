@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Card from './Card/Card';
-import DrawButton from './DrawButton/DrawButton';
 import QnA from './Data/QnA';
 
 const App = () => {
@@ -9,6 +8,7 @@ const App = () => {
   const [cards, setCards] = useState(QnA.cards);
   const [currentCard, setCurrentCard] = useState({});
   const [currentTopic, setCurrentTopic] = useState(QnA.topics[0]);
+  const [cardFacing, setCardFacing] = useState('front');
 
   //card selection
   useEffect(() => {
@@ -21,8 +21,11 @@ const App = () => {
   };
 
   const updateCard = () => {
-    const currentCards = getCardsByTopic(currentTopic);
-    setCurrentCard(getRandomCard(currentCards));
+    setCardFacing('front');
+    setTimeout(() => {
+      const currentCards = getCardsByTopic(currentTopic);
+      setCurrentCard(getRandomCard(currentCards));
+    }, 400);
   };
 
   const getCardsByTopic = topic => {
@@ -31,6 +34,10 @@ const App = () => {
     } else {
       return cards.filter(card => card.topic === topic);
     }
+  };
+
+  const rotateCard = () => {
+    setCardFacing(cardFacing === 'front' ? 'back' : 'front');
   };
 
   //topics selection
@@ -57,10 +64,18 @@ const App = () => {
           question={currentCard.question}
           answer={currentCard.answer}
           topic={currentCard.topic}
+          face={cardFacing}
         />
       </div>
       <div className='buttonRow'>
-        <DrawButton drawCard={updateCard} />
+        <div className='button-container'>
+          <button className='btn btn--rotate' onClick={rotateCard}>
+            Rotate Card
+          </button>
+          <button className='btn btn--draw' onClick={updateCard}>
+            Draw Card
+          </button>
+        </div>
       </div>
     </div>
   );
