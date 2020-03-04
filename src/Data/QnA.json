@@ -1,89 +1,340 @@
 {
-  "topics": ["All topics", "ISG (UXG) Audit Playbook"],
+  "topics": [
+    "All topics",
+    "Computer Architecture - Part 1",
+    "Computer Architecture - Part 2",
+    "Computer Architecture - Part 3"
+  ],
   "cards": [
     {
       "id": 1,
-      "question": "What is CAE’s quality policy and where is it located?",
-      "answer": "<ul><li><b>EXE-PLCY-001 Section 2.2.10</b> on the <a href=\"https://thehub.caemilusa.com/pal/Pages/default.aspx\">PAL</a> (be sure you are able to navigate to it AND find it)</li><li>Posted on the wall throughout the office (Conf 1 is an example)</li><li>The card on your desk (if you have one)</li><li><b>QA-MNL-001 Section 5.2</b> on the <a href=\"https://thehub.caemilusa.com/pal/Pages/default.aspx\">PAL</a> (be sure you are able to navigate to it AND find it)</li><li>On the <a href=\"https://isg.thepoint.caemilusa.com/qa/SitePages/Home.aspx\">QA Page</a> itself under “CAE QUALITY POLICY” on the top right</li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What are the steps involved in the functioning of a computer?",
+      "answer": "Accepts digitized input, processes it according to a list or instructions (Program), and produces the resulting output.",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 2,
-      "question": "Do you have an established process for ISG? Where is it located?",
-      "answer": "Yes – <b>MST-PRS-051 Courseware Development Process</b> Located on the <a href=\"https://thehub.caemilusa.com/pal/Pages/default.aspx\">PAL</a> (be sure you are able to navigate to it AND find it)",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What are the five functional main units of a computer",
+      "answer": "input, output, arithmetic and logic, control and memory",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 3,
-      "question": "What are your roles/responsibilities as it relates to MST-PRS-051?",
-      "answer": "These are found in Section 1.5 Page 9 of MST-PRS-051.",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "How do the 5 functional units of a computer relate to the steps of computer functionality?",
+      "answer": "Input and output: I/O; arithmetic and logic, control: processor; memory: stores the program and data",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 4,
-      "question": "How does your department and ISG contribute to the Quality Management System?",
-      "answer": "<ul><li>Following processes, procedures and work instructions</li><li>Attention to detail/minimizing errors and waste</li><li>Knowing and designing to the requirements which are communicated at kickoff meetings and any questions can be deferred to a Program Manager.</li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is the input unit of a computer responsible for?",
+      "answer": "accepting a digitized input and converting it into a corresponding binary code",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 5,
-      "question": "Who is the BPO (Business Process Owner)?",
-      "answer": "<ul><li>For MST-PRS-051: Ricky Bartlett</li><li>For our department procedures: the team lead.</li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is the memory unit of a computer responsible for?",
+      "answer": "storage of programs and data",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 6,
-      "question": "How often are the documents reviewed?",
-      "answer": "Annually",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What are the two types of storage?",
+      "answer": "Primary and secondary",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 7,
-      "question": "What are the inputs required to complete your departments responsibilities as it pertains to Courseware Production and Implementation?",
-      "answer": "These are found in MST-PRS-051 within each section that we have a responsibility (be sure to know how to show that)",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is primary storage used for?",
+      "answer": "Storing fast memory that operates at electronic speeds; contains large number of semiconductor storage cells that are able to store one bit of information each",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 8,
-      "question": "What is your Dept. Functional Statement?",
-      "answer": "This is found in the <a href=\"https://isg.thepoint.caemilusa.com/uxg/SitePages/Home.aspx\">UXG SharePoint Page</a> in the top left section.",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is secondary storage used for?",
+      "answer": "Storing large amounts of programs and data that are accessed infrequently (e.g. magnetic disks, CDROMs)",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 9,
-      "question": "Who is your internal customer?",
-      "answer": "<p>It can vary but typically can include:</p><ul><li>Courseware Developers</li><li>Project Managers</li><li>Tampa</li><li>Montreal</li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is the ALU (Arithmetic and Logic Unit)?",
+      "answer": "executes most computer operations; operands are transferred to the processor and operations are performed by the ALU; operands are stored in the processor in high-speed storage elements called registers",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 10,
-      "question": "Are your personal objectives defined and communicated with you?",
-      "answer": "Yes, through conversations and 1:1s with my team lead",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is the Control Unit?",
+      "answer": "A defined, physically separated unit that coordinates operations of the other units of a computer; sends control signals to other units and registers their states",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 11,
-      "question": "What are avenues here at ISG that are used for process improvement?",
-      "answer": "One Sparks, Opportunities and Risks page, PIRs",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is the Output unit?",
+      "answer": "counterpart of input unit that sends processed results to external parts (e.g. printer or monitor)",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 12,
-      "question": "How do we measure the effectiveness of MST-PRS-051? ",
-      "answer": "<p>We measure effectiveness through:</p><ul><li>Cost (are we on budget)</li><li>Schedule (are we on schedule)</li><li>Error Rates (are DRs limited)</li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "What is data?",
+      "answer": "information such as alphabets, number, symbols, images, etc. in raw and unorganized form",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 13,
-      "question": "How do you know if the MST-PRS-051 is being effective?",
-      "answer": "<p>Through Key Performance Indicators (KPIs):</p><ul><li>Cost Performance Indicator (CPI) dashboard</li><li>Schedule Performance Indicator (SPI) dashboard</li><li>Six Sigma Dashboard (we strive to maintain a 4.5 or higher sigma rating).</li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "How is data represented in computers?",
+      "answer": "in binary number format (e.g. 1) or binary code format (e.g. 0001)",
+      "topic": "Computer Architecture - Part 1"
     },
     {
       "id": 14,
-      "question": "How does your job contribute to the quality policy?",
-      "answer": "<ul><li>I follow established procedures and work instructions located on our <a href=\"https://isg.thepoint.caemilusa.com/uxg/SitePages/Home.aspx\">UXG SharePoint Page</a> under “<a href=\"https://isg.thepoint.caemilusa.com/qa/ISG%20Master%20Documents/Forms/UXG.aspx\">ISG Master Documents</a> (left side column).</li><li>These procedures feed into the responsibilities outlined in MST-PRS-051 (if you read the “Purpose” section of each one, you can see where it supports MST-PRS-051 specifically)</li><li>This work ties into the strategic business objectives the company has outlined which can be found on our <a href=\"https://isg.thepoint.caemilusa.com/uxg/SitePages/Home.aspx\">UXG SharePoint Page</a> under our Departmental Functional Statement<ul><li>Delight Customers - Focus on Operational Excellence</li><li>Drive Innovation - Create Competitive Discriminators</li><li>Bolster Talent - Improve Employee Experience</li><li>Optimize Capital - Innovate for Efficiencies and Product Repeatability</li></ul></li></ul>",
-      "topic": "ISG (UXG) Audit Playbook"
+      "question": "what data format is used at all stages of processing within a computer?",
+      "answer": "binary code format",
+      "topic": "Computer Architecture - Part 1"
+    },
+    {
+      "id": 15,
+      "question": "What is ASCII?",
+      "answer": "the American Standard Code for Information Interchange; text code standard for conversion of numbers, letters and symbols into binary code; letters and symbols are converted into decimal equivalents and then converted to binary code format.",
+      "topic": "Computer Architecture - Part 1"
+    },
+    {
+      "id": 16,
+      "question": "What is computer memory?",
+      "answer": "computer hardware with integrated circuits used to store information; programs and data are usually stored in memory and accessed during processing",
+      "topic": "Computer Architecture - Part 1"
+    },
+    {
+      "id": 17,
+      "question": "What are the two types of computer memory?",
+      "answer": "Volatile (temporary -- RAM) and non-volatile memory (persistent -- ROM, flash memory, HDD, SDD)",
+      "topic": "Computer Architecture - Part 1"
+    },
+    {
+      "id": 19,
+      "question": "What is volatile memory?",
+      "answer": "Computer memory requiring power to maintain stored information; it is primary storage in computers and an example is RAM (Random Access Memory).",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 20,
+      "question": "What is non-volatile memory?",
+      "answer": "Computer memory that can maintain stored information even when the power is interrupted / off.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 21,
+      "question": "What are the two categories of non-volatile memory?",
+      "answer": "Electrically addressed systems--ROM (Read Only Memory and flash memory); Mechanically addressed systems--hard disks, magnetic tape.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 22,
+      "question": "What is RAM also known as?",
+      "answer": "Read and Write Memory.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 23,
+      "question": "What are the two types of RAM?",
+      "answer": "Static and Dynamic.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 24,
+      "question": "What is Static RAM?",
+      "answer": "Random access memory that uses flip-flop to store each bit of data; typically used in CPU cache.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 25,
+      "question": "What is Dynamic RAM?",
+      "answer": "Random access memory that uses capacitors within an integrated circuit to store each bit of data; typically used in computer’s main memory.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 26,
+      "question": "What are the three classifications of ROM?",
+      "answer": "PROM, EPROM and EEPROM",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 27,
+      "question": "What is PROM?",
+      "answer": "Programmable Read Only Memory. Type of ROM that is programmed via PROM programmer and can only be programmed once.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 28,
+      "question": "What is EPROM?",
+      "answer": "Erasable Programmable Read Only Memory. Type of ROM where data can be erased with UV light and reprogrammed. Can only endure 1000 erasing / reprogramming cycles.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 29,
+      "question": "What is EEPROM?",
+      "answer": "Electrically Erasable Programmable Read Only Memory. Type of ROM with similar semiconductor structure to EPROM and can be electrically erased and reprogrammed.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 30,
+      "question": "What is Flash Memory?",
+      "answer": "An Electronically non-volatile memory that can be electrically erased and reprogrammed--modern version of EEPROM with faster erasure / rewrites; USB drives and SSDs (Solid State Drives) are a category of flash memory.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 31,
+      "question": "What is Cache Memory?",
+      "answer": "Type of memory used to speed up and synchronize with CPU and acts as buffer between RAM and CPU. It holds frequently requested data and instructions from the main memory so that it is immediately available to the CPU.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 32,
+      "question": "What is a Cache Hit and Cache Miss?",
+      "answer": "When a processor wants to read a location in main memory it first checks for a corresponding entry in cache memory. When the processor finds the memory location in cache, it is a Cache Hit; when the processor does not find one, it is a Cache Miss--where the cache allocates a new entry and copies data from main memory.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 33,
+      "question": "What is the Hit Ratio?",
+      "answer": "Ratio used to measure the performance of cache memory. Number of cache hits / total accesses",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 34,
+      "question": "What are the two approaches to writing to cache memory?",
+      "answer": "Write-through approach--write operation is done synchronously to both cache and main memory; Write-back approach--write operation is done only to cache and write to main memory is postponed until modified content is to be replaced by another cache block.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 35,
+      "question": "What are the two approaches to write miss (cache miss during write operation)?",
+      "answer": "Write allocate--cache memory makes room for the data in a write miss and loads data; No-write allocate--data is not loaded into cache in write miss and is written into main memory.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 36,
+      "question": "What are the two units of the CPU (Central Processing Unit)?",
+      "answer": "Arithmetic and Logic Unit; Control Unit.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 37,
+      "question": "How is the ALU (Arithmetic and Logic Unit) designed to operate in the CPU?",
+      "answer": "Designed to be powerful enough to handle some complex operations, but not so powerful that when it performs a more complex operation that it consumes more energy and dissipates heat.",
+      "topic": "Computer Architecture - Part 2"
+    },
+    {
+      "id": 38,
+      "question": "What type of operations are performed in the ALU (Arithmetic and Logic Unit)?",
+      "answer": "Bit mathematical operations; each digit is a bit",
+      "topic": ""
+    },
+    {
+      "id": 39,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 40,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 41,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 42,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 43,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 44,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 45,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 46,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 47,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 48,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 49,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 50,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 51,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 52,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 53,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 54,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 55,
+      "question": "",
+      "answer": "",
+      "topic": ""
+    },
+    {
+      "id": 56,
+      "question": "",
+      "answer": "",
+      "topic": ""
     }
   ]
 }
