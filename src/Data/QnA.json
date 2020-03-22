@@ -3,7 +3,19 @@
     "All topics",
     "Computer Architecture - Part 1",
     "Computer Architecture - Part 2",
-    "Computer Architecture - Part 3"
+    "Computer Architecture - Part 3",
+    "Computer Architecture - Part 4",
+    "Numbering Systems - Part 1",
+    "Numbering Systems - Part 2",
+    "Programming Basics",
+    "Object, Types and Values",
+    "Character Encoding",
+    "Computation - Part 1",
+    "Databases - Part 1",
+    "Databases - Part 2",
+    "Databases - Part 3",
+    "Databases - Part 4",
+    "Computer Networks - Part 1"
   ],
   "cards": [
     {
@@ -223,118 +235,934 @@
       "topic": "Computer Architecture - Part 2"
     },
     {
+      "id": 114,
+      "question": "What are numbers?",
+      "answer": "Mathematical objects used to count, label or measure.",
+      "topic": "Numbering Systems - Part 1"
+    },
+    {
+      "id": 115,
+      "question": "What are numerals?",
+      "answer": "Symbols used to represent numbers.",
+      "topic": "Numbering Systems - Part 1"
+    },
+    {
+      "id": 116,
+      "question": "What is the most commonly used numeral system?",
+      "answer": "The Arabic positional decimal system.",
+      "topic": "Numbering Systems - Part 1"
+    },
+    {
+      "id": 117,
+      "question": "What is Positional Representation?",
+      "answer": "System where the value of a digit depends on the position within a number; allows for numbers to be broken up into component parts.",
+      "topic": "Numbering Systems - Part 1"
+    },
+    {
+      "id": 118,
+      "question": "What are Nibbles?",
+      "answer": "Groups of four digits in binary representation.",
+      "topic": "Numbering Systems - Part 2"
+    },
+    {
+      "id": 119,
+      "question": "What are Bytes?",
+      "answer": "Groups of eight digits in binary representation.",
+      "topic": "Numbering Systems - Part 2"
+    },
+    {
+      "id": 120,
+      "question": "What are Nibbles?",
+      "answer": "Groups of four digits in binary representation.",
+      "topic": "Programming Basics"
+    },
+    {
+      "id": 121,
+      "question": "What are Bytes?",
+      "answer": "Groups of eight digits in binary representation.",
+      "topic": "Programming Basics"
+    },
+    {
+      "id": 122,
+      "question": "What are Objects?",
+      "answer": "Regions of memory with corresponding Types.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 123,
+      "question": "What are Types?",
+      "answer": "Specify what kinds of data can be placed into Objects.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 124,
+      "question": "What is a Variable?",
+      "answer": "A named Object.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 125,
+      "question": "What are Values?",
+      "answer": "Data items placed into Objects.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 126,
+      "question": "What are Definitions?",
+      "answer": "Statements that create a Variable by introducing and allocating memory for it within a program.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 127,
+      "question": "What is Initialization?",
+      "answer": "Practice of setting an initial value for a Variable--considered a good practice.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 128,
+      "question": "What is an assignment operator?",
+      "answer": "An equals sign that changes the value of an variable.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 129,
+      "question": "What is an Immutable Data Type?",
+      "answer": "A data type that when its value is changed results in a newly allocated object.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 130,
+      "question": "What is Garbage Collection?",
+      "answer": "Reclamation of memory occupied by Objects that are no longer used / needed.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 131,
+      "question": "What are the four basic Data Types in Python?",
+      "answer": "They are int, float, str and bool.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 132,
+      "question": "How is the Data Type of an Object identified in Python?",
+      "answer": "With the type() function.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 133,
+      "question": "What are the four basic Data Type conversion functions in Python?",
+      "answer": "They are int(), float(), str() and bool().",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 134,
+      "question": "What are the Arithmetic Operators offered by Python?",
+      "answer": "-\tSubtraction\n**\tExponentiation\n*\tMultiplication\n/\tDivision\n//\tInteger Division (divides and returns only quotient)\n%\tModulus (divided and returns only remainder)\n+\tAddition",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 135,
+      "question": "What is the input() function in Python?",
+      "answer": "A function that returns user input from a prompt--must be assigned to a Variable to capture input.",
+      "topic": "Object, Types and Values"
+    },
+    {
+      "id": 136,
+      "question": "What is an Encoding Scheme?",
+      "answer": "A representation bits into letters and symbols.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 137,
+      "question": "How are decimal integers encoded to binary?",
+      "answer": "By converting them from the base ten(decimal system) to the base two (binary system)",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 138,
+      "question": "What is the function of ASCII?",
+      "answer": "A table of characters, or character set, with corresponding bytes for each character.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 139,
+      "question": "How is ASCII designed in regards to bits?",
+      "answer": "ASCII was designed to represent all major characters in the English language use only 7 bits. Since computers use 8 bytes, it was possible to store an additional 128 characters in a single byte.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 140,
+      "question": "How are the extended characters of ASCII used?",
+      "answer": "Math symbols, accented characters, line-drawing characters and other symbols.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 141,
+      "question": "What is the international standard for character encoding?",
+      "answer": "ANSI (American National Standards Institute); same original 128 characters, but with different sets of extended characters to represent characters in other languages.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 142,
+      "question": "What is Unicode?",
+      "answer": "Form of character encoding where each letter maps to a code point--a symbolic representation of a character.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 164,
+      "question": "What is UTF-8?",
+      "answer": "Method of encoding Unicode code points with only the required amount of bytes; code points 0 - 127 is stored as a single byte, while 128+ are stored using more than one byte.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 165,
+      "question": "What is a benefit of of using UTF-8?",
+      "answer": "Text using only the first 128 characters in the ASCII characters is also valid UTF-8--no file conversion is necessary.",
+      "topic": "Character Encoding"
+    },
+    {
+      "id": 166,
+      "question": "What is Computation?",
+      "answer": "Accepting some type of input and producing some output.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 167,
+      "question": "How should programmers express their computations?",
+      "answer": "Correctly, simple and efficiently.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 168,
+      "question": "What is abstraction?",
+      "answer": "Hiding implementation details behind a convenient and general interface.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 169,
+      "question": "What are Control Statements?",
+      "answer": "Statements that are used to alter the order of evaluation.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 170,
+      "question": "What are Selection Statements?",
+      "answer": "Statement that allow the computer to make choices.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 171,
+      "question": "What are Iteration Statements?",
+      "answer": "Statements that allow the computer to execute a set of statements a definite number of times.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 172,
+      "question": "How are conditions represented in an If Statement?",
+      "answer": "if, elif and else",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 173,
+      "question": "What did the first real program created by David Wheeler in 1949 do?",
+      "answer": "It iterated through numbers and output squared exponents of each.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 174,
+      "question": "What are the two main types of loops in Python?",
+      "answer": "While and for loops.",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 175,
+      "question": "What is simple representation of a while loop that ends at 100?",
+      "answer": "while (i < 100):",
+      "topic": "Computation - Part 1"
+    },
+    {
+      "id": 176,
+      "question": "What is simple representation of a for loop that ends at 100?",
+      "answer": "for i in range (0, 100, 1):",
+      "topic": "Computation - Part 1"
+    },
+    {
       "id": 38,
       "question": "What type of operations are performed in the ALU (Arithmetic and Logic Unit)?",
       "answer": "Bit mathematical operations; each digit is a bit",
-      "topic": ""
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 39,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is used in substitution for for bit multiplication and division when the operations become too expensive in the ALU (Arithmetic and Logic Unit)?",
+      "answer": "Addition for multiplication and subtraction for division.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 40,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the 6 conditions the ALU can test for?",
+      "answer": "Equal to, less than, greater than, less than or equal to, greater than or equal to, not equal",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 41,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is the Control Unit responsible for?",
+      "answer": "Directs the operation of the processor and directs the flow of data between the CPU and other devices; directs the computer’s memory, ALU, and I/O how to respond to instructions that have been sent to the processor.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 42,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What types of devices require a Control Unit?",
+      "answer": "Control Processing Units (CPUs) and Graphics Processing Units (GPUs)",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 43,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the main functions of the Control Unit?",
+      "answer": "Coordination of sequence data in, out and between processors sub units; conversion of external instructions into sequence of control signals; fetches, decodes, handles execution and stores results.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 44,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the two types of control units?",
+      "answer": "Hardwired control unit; micro programmable control unit",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 45,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is a Hardwired Control Unit?",
+      "answer": "Control unit with signals are generated by specially designed hardware logical circuits; modification of control signal generation method requires wiring changes of logical circuits",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 46,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is a Micro Programmable Control Unit?",
+      "answer": "Control unit with signals generated by a control store containing encoded signals--does not generate signals from hardware circuits.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 47,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "How does the process flow of the CPU (Central Processing Unit) interact with Memory?",
+      "answer": "The Control Unit interacts with the ALU (Arithmetic and Logic Unit); the ALU interacts with the Memory; the Memory interacts with the Control Unit.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 48,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the 4 steps of processing operations of the CPU (Central Processing Unit)?",
+      "answer": "Fetch--control unit fetches instruction from memory; Decode--control unit decodes instruction and sends control signals for data to be moved from memory to ALU; Execute--ALU unit executes arithmetic or logical instruction; Store--ALU stores result of operation in memory.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 49,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the operands of the Machine Cycle",
+      "answer": "I-time (instruction time--fetch and decode steps) + E-time (execution time--execute and store steps) = Machine Cycle",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 50,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "In computer terminology, what is a Bus?",
+      "answer": "A communication system that acts as a connection between two or more devices.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 51,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the 3 types of Buses?",
+      "answer": "Address Bus; Data Bus; Control Bus.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 52,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is an Address Bus?",
+      "answer": "Type of bus with conducting wires that carries address only and with unidirectional data flow.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 53,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is a Data Bus?",
+      "answer": "Type of bus with conducting wires that carries data only and with bidirectional data flow.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 54,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What is a Control Bus?",
+      "answer": "Type of bus with conducting wires used to generate timing and control signals for all associated hardware.",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 55,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are 5 Control Signals?",
+      "answer": "Memory read, memory write; I/O read; I/O write; Opcode fetch",
+      "topic": "Computer Architecture - Part 3"
     },
     {
       "id": 56,
-      "question": "",
-      "answer": "",
-      "topic": ""
+      "question": "What are the flow steps of the integration of units in a computer?",
+      "answer": "- Input device sends data\n- Data and program stored in memory\n- Accessing data and program from memory by CPU\n- Processing of data by CPU\n- Output or Secondary Storage?\nOutput → Sends data to output device\nSecondary Storage → Stores data and program in secondary storage",
+      "topic": "Computer Architecture - Part 3"
+    },
+    {
+      "id": 57,
+      "question": "What are the main responsibilities of a microprocessor?",
+      "answer": "Management of a computer’s arithmetic, logical and control activities.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 58,
+      "question": "What are Machine Language Instructions?",
+      "answer": "A microprocessor’s set of instructions--a string of 1s and 0s--for handling various operations.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 59,
+      "question": "What are the 3 major number systems in computer science?",
+      "answer": "Binary Number, Hexadecimal and Binary Arithmetic.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 60,
+      "question": "What is the value of a binary number based on?",
+      "answer": "The presence of 1 bits and their positional value.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 61,
+      "question": "What is the hexadecimal system?",
+      "answer": "Number system that uses base 16 with digits range from 0 - 15; 10 -15 is represented by the letters A - F.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 62,
+      "question": "What are the three steps of the execution cycle?",
+      "answer": "Fetching the Instruction from memory.\nIdentifying the instruction.\nExecuting the instruction.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 63,
+      "question": "What are the two kinds of data addresses?",
+      "answer": "Absolute address: direct reference of location\nSegment address: starting address of memory segment with the offset value",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 64,
+      "question": "What are the three sections of an assembly program?",
+      "answer": "Data, Bss, Text, and Comments",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 65,
+      "question": "What is the Data section of an assembly program?",
+      "answer": "Section used for declaring initialized data and constants that do not change at runtime.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 66,
+      "question": "What is the Bss section of an assembly program?",
+      "answer": "Section used for declaring variables.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 67,
+      "question": "What is the Text section of an assembly program?",
+      "answer": "Section used for keeping actual code and must begin with declaration “global _start”.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 68,
+      "question": "How are Comments declared in an assembly program?",
+      "answer": "They must begin with a semicolon and can contain any printable character including blank.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 69,
+      "question": "What are registers in assembly code?",
+      "answer": "The only place where math can be performed and frequently hold pointers referencing memory.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 70,
+      "question": "What is the Segmented Memory Model?",
+      "answer": "A model dividing system memory into independent segments referenced by pointers located in segment registers; each segment contains a specific type of data.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 71,
+      "question": "What are the types of Memory Segments?",
+      "answer": "Data Segment: represented by the .data and .bss sections and is used to declare the static, memory region,\nCode Segment: represented by the .text section and defines the area in memory that stores instruction codes.\nStack: stores values of data passed in the program and functions.",
+      "topic": "Computer Architecture - Part 4"
+    },
+    {
+      "id": 72,
+      "question": "What is a database?",
+      "answer": "A representation of a set of relationships populated by data fitting within the relationship definition.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 73,
+      "question": "What are Tuples in databases?",
+      "answer": "The rows of data within a database table.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 74,
+      "question": "What are attributes in databases?",
+      "answer": "The columns within a database table; they describe the behavior of a table and how it interacts with other tables.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 75,
+      "question": "What is the SELECT command in MySQL?",
+      "answer": "It selects a particular set of tuples / rows from tables.\nExample: SELECT * FROM Table1;",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 76,
+      "question": "What is the INSERT command in MySQL?",
+      "answer": "It adds a new tuple to an existing database.\nExample: INSERT INTO Table1(name, age, dob) VALUES (‘name’, 18, ‘03/23/96’);",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 77,
+      "question": "What is the DELETE command in MySQL?",
+      "answer": "It removes a tuple from an existing database.\nExample: DELETE FROM Table1 WHERE name=’name’;",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 78,
+      "question": "What is the UPDATE command in MySQL?",
+      "answer": "It updates information in a tuple from an existing database.\nExample: UPDATE Table1 SET name=’name1’ WHERE id=’5’;",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 79,
+      "question": "What are Entities in the context of databases?",
+      "answer": "Abstractions of how data is stored; can be identities of tables created by compiling multiple attributes.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 80,
+      "question": "How are Relations created in databases?",
+      "answer": "They are made by the underlying logic of entity connections based on their attributes.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 81,
+      "question": "What is the ER Model?",
+      "answer": "The Entity-Relationship model is the visual representation of a database; composed of all basic elements of a database.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 82,
+      "question": "What are Attributes within the ER Model?",
+      "answer": "The building blocks of an entity that define how an entity works and its behavior.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 83,
+      "question": "How are attributes used in a database table?",
+      "answer": "They are used to identify a tuple as unique from all others in a table.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 84,
+      "question": "What is a Candidate Key?",
+      "answer": "Single or multiple attributes mandating the uniqueness of a tuple.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 85,
+      "question": "What is a Composite Key?",
+      "answer": "Multiple attributes in a tuple ensuring its uniqueness.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 86,
+      "question": "What is a Primary Key?",
+      "answer": "The main candidate key that is prioritized for making a tuple unique.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 87,
+      "question": "What is a Foreign Key?",
+      "answer": "Attribute that is a candidate key to another table connecting tables.",
+      "topic": "Databases - Part 1"
+    },
+    {
+      "id": 88,
+      "question": "What are the four major types of Attributes in database tables?",
+      "answer": "Simple, Composite, Multivalued and Derived Attributes.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 89,
+      "question": "What are Simple Attributes in database tables?",
+      "answer": "Single value attributes that cannot be further divided into additional attributes.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 90,
+      "question": "What are Composite Attributes in database tables?",
+      "answer": "Attributes composed of two or more attributes.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 91,
+      "question": "What are Multivalued Attributes in database tables?",
+      "answer": "Attributes consisting of one or more values; values do not change and are static among all data fields.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 92,
+      "question": "What are Derived Attributes in database tables?",
+      "answer": "Attributes that are calculated from other attributes in the table.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 93,
+      "question": "What are Entities in databases?",
+      "answer": "Objects in both physical and conceptual existence.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 94,
+      "question": "What are the two types of Entities in databases?",
+      "answer": "Independent and Dependent Entities.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 95,
+      "question": "What are Independent Entities within databases?",
+      "answer": "Backbones of database functionality and behavior.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 96,
+      "question": "What are Derived Entities within databases?",
+      "answer": "Derived from independent entities to extend database behavior.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 97,
+      "question": "What are Relationships in database tables?",
+      "answer": "Interconnections in databases tables that allow for efficient operation and behaviors in certain tables.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 98,
+      "question": "What are the three major types of Relationships in databases?",
+      "answer": "One-to-many, one-to-one and many-to-many Relationships.,",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 99,
+      "question": "What are One-to-Many Relationships in databases?",
+      "answer": "A relationship where one entity maps to many unique ones.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 100,
+      "question": "What are One-to-One Relationships in databases?",
+      "answer": "A relationship where one entity maps to only one other entity.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 101,
+      "question": "What are Many-to-Many Relationships in databases?",
+      "answer": "A relationship where one entity maps to multiple others and vice-versa.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 102,
+      "question": "What are the five basic commands within a database?",
+      "answer": "SELECT, INSERT, UPDATE, DELETE, and CREATE Commands.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 103,
+      "question": "What are the Basic Guidelines of database commands?",
+      "answer": "New lines for each command to denote different instructions for database processing and execution.\nQueries with multiple commands should be indented accordingly for readability and clarity.\nUppercase words must be commands or keywords.\nLowercase words must be used for user-defined attributes.",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 104,
+      "question": "What are the components of a SELECT command?",
+      "answer": "SELECT DISTINCT item(s)\nFROM table(s)\nWHERE predicate\nGROUP BY field(s)\nORDER BY fields",
+      "topic": "Databases - Part 2"
+    },
+    {
+      "id": 105,
+      "question": "What will the following query result in?\nSELECT name age FROM people",
+      "answer": "The missing comma between age and name will return the name column from the people table with a column heading called age.",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 106,
+      "question": "What is one use of the UPDATE command?",
+      "answer": "It can fix erroneous INSERT commands; it updates pre-existing data into correct data.",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 107,
+      "question": "What is the WHERE command?",
+      "answer": "Used to specify a condition while fetching data from a single table or joining multiple tables.",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 108,
+      "question": "What is one limitation of the DELETE command?",
+      "answer": "Only one table can be altered with the command at a time.",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 109,
+      "question": "What is the CREATE command?",
+      "answer": "It creates tables to perform actions on and store data in; a table's primary key can be declared in this statement.",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 110,
+      "question": "What is the general structure of a CREATE TABLE statement?",
+      "answer": "CREATE TABLE table1(attribute1, attribute2)",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 111,
+      "question": "What are the typical data types used to declare attributes within a table?",
+      "answer": "VARCHAR, INT and DATE",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 112,
+      "question": "What are the miscellaneous commands?",
+      "answer": "AVG, COUNT, COUNT(*), MAX, MIN, SUM",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 113,
+      "question": "What is the AVG command?",
+      "answer": "Takes a sum of specified attributes and divides them by the number of those same attributes.",
+      "topic": "Databases - Part 3"
+    },
+    {
+      "id": 143,
+      "question": "What is the COUNT command?",
+      "answer": "Counts how many entries of a particular attribute exist in a table.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 144,
+      "question": "What is the COUNT(*) command?",
+      "answer": "Counts number of rows in a table irrespective of data within each attribute.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 145,
+      "question": "What is the MAX command?",
+      "answer": "Selects the attribute with the maximum value from the rows in a table.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 146,
+      "question": "What is the MIN command?",
+      "answer": "Selects the attribute with the minimum value from the rows in a table.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 147,
+      "question": "What is the SUM command?",
+      "answer": "Returns the summation of a specific attribute; only works with numerical data types.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 148,
+      "question": "What is NoSQL?",
+      "answer": "A non-relational database management system that does not require schemas to build.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 149,
+      "question": "What are the five types of NoSQL databases?",
+      "answer": "Key Value, Document-Based, Column-Based and Graph-Based.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 150,
+      "question": "What is a Key Value NoSQL database?",
+      "answer": "NoSQL database where data is stored in key-value pairs; related to a hash table where each key is unique and data can be accessed via a key.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 151,
+      "question": "What is a Document-Based NoSQL database?",
+      "answer": "NoSQL database similar to key-value system where keys are complete documents of information; definition attributes are flexible to user requirements.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 152,
+      "question": "What is a Column-Based NoSQL database?",
+      "answer": "NoSQL database where all columns are treated separately and are widely used to manage data warehouses; perform well with aggregation queries such as SUM, COUNT and AVG.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 153,
+      "question": "What is a Graph-Based NoSQL database?",
+      "answer": "NoSQL, multi-relational database where the relationships of entities are also stored; predominantly used in social networking databases.",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 154,
+      "question": "What are some advantages of NoSQL databases?",
+      "answer": "Can serve as primary data source for online apps\nOffer flexible scheme design\nDo not need dedicated, high-performance servers\nThere is no single point of failure in architecture\nPrimarily used OOP which is intuitive",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 155,
+      "question": "What are some disadvantages of NoSQL databases?",
+      "answer": "Tools are not as mature as relational databases\nLimited querying capabilities\nTraditional database capabilities not offered\nDifficulty of creating unique key data increases as amount of data increases\nDoes not work well with a lot interconnected relationships\nHigh learning curve for new developers\nNot many open-source options for enterprises\nNo standard guidelines for development",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 156,
+      "question": "How does MySQL compare to NoSQL as far as nature?",
+      "answer": "Nature: MySql is relational and NoSQL is non-relational",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 157,
+      "question": "How does MySQL compare to NoSQL as far as design?",
+      "answer": "MySql is table-based and NoSQL is document-based",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 158,
+      "question": "How does MySQL compare to NoSQL as far as scalability?",
+      "answer": "MySQL is tough to scale for big data and NoSQL is not",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 159,
+      "question": "How does MySQL compare to NoSQL as far as model?",
+      "answer": "MySQL requires detailed database design and NoSQL does not",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 160,
+      "question": "How does MySQL compare to NoSQL as far as community?",
+      "answer": "MySQL has large expert community and NoSQL community is smaller",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 161,
+      "question": "How does MySQL compare to NoSQL as far as standardization?",
+      "answer": "MySQL has a standard language with guidelines and NoSQL lacks a standard query language",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 162,
+      "question": "How does MySQL compare to NoSQL as far as schema?",
+      "answer": "MySQL schema is rigid and NoSQL is dynamic according to needs",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 163,
+      "question": "How does MySQL compare to NoSQL as far as flexibility?",
+      "answer": "MySQL design changes affect the greatly affect the database and become inflexibility; NoSQL design changes do not affect the database, making it very flexible",
+      "topic": "Databases - Part 4"
+    },
+    {
+      "id": 177,
+      "question": "What is the Internet?",
+      "answer": "It is a worldwide, computer network that interconnects hundreds of types of computing devices.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 178,
+      "question": "What is a Protocol?",
+      "answer": "Governing of internet communication between two or more remote entities.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 179,
+      "question": "What Protocol is used when a user makes a URL request in a browser?",
+      "answer": "Transmission Control Protocol (TCP).",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 180,
+      "question": "What forms a Network?",
+      "answer": "Ethernet cables, bridges, routers and switches.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 181,
+      "question": "What are the core components responsible for packet transmission in a network?",
+      "answer": "Switches, hubs and bridges.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 182,
+      "question": "What is Packet Switching?",
+      "answer": "Mode of data transmission in which a message is broken into a number of parts sent independently, over whatever route is optimum for each packet, and reassembled at the destination.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 183,
+      "question": "What is a Gateway?",
+      "answer": "Networking hardware used in telecommunication networks that allows data to flow from one discrete network to another.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 184,
+      "question": "What is Circuit Switching?",
+      "answer": "Telecommunications network in which two network nodes establish a dedicated communications channel (circuit) through the network before the nodes may communicate.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 185,
+      "question": "How is Circuit Switching different from Packet Switching?",
+      "answer": "In Circuit Switching, the entire message is sent at once, and the entire link is reserved for communication.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 186,
+      "question": "What are the 7 layers of the OSI (Open Systems Interconnection) Model?",
+      "answer": "The Application, Presentation, Session, Transport, Network, Data Link and Physical Layer.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 187,
+      "question": "What are the 3 Software Layers of the OSI (Open Systems Interconnection) Model?",
+      "answer": "The Application, Presentation, and Session Layers.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 188,
+      "question": "What are the 3 Hardware Layers of the OSI (Open Systems Interconnection) Model?",
+      "answer": "The Network, Data Link and Physical Layers.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 189,
+      "question": "What is the Core Layer of the OSI (Open Systems Interconnection) Model?",
+      "answer": "The Transport Layer.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 190,
+      "question": "What are the 5 layers of Computer Networks / Internet Technology?",
+      "answer": "The Application, Transport, Internet, Network Interface and Physical Layers.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 191,
+      "question": "What is the Client-Server Architecture?",
+      "answer": "Architecture of a computer network in which many clients (remote processors) request and receive service from a centralized server (host computer) at fixed IP address. Client computers provide an interface to allow a computer user to request services of the server and to display the results the server returns.",
+      "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 192,
+      "question": "What is P2P Architecture?",
+      "answer": "Peer-to-peer architecture is a commonly used computer networking architecture in which each workstation, or node, has the same capabilities and responsibilities (distributed workload).",
+      "topic": "Computer Networks - Part 1"
     }
   ]
 }
