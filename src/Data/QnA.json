@@ -11,6 +11,7 @@
     "Object, Types and Values",
     "Character Encoding",
     "Computation - Part 1",
+    "Computation - Part 2",
     "Databases - Part 1",
     "Databases - Part 2",
     "Databases - Part 3",
@@ -1163,6 +1164,72 @@
       "question": "What is P2P Architecture?",
       "answer": "Peer-to-peer architecture is a commonly used computer networking architecture in which each workstation, or node, has the same capabilities and responsibilities (distributed workload).",
       "topic": "Computer Networks - Part 1"
+    },
+    {
+      "id": 193,
+      "question": "What is the ideal of computations as a programmer?",
+      "answer": "To express computations correctly, efficeintly and simply.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 194,
+      "question": "What is the Divide and Conquer Strategy?",
+      "answer": "Breaking up large and complex computations into smaller and simpler ones.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 195,
+      "question": "What are the benefits of using functions to separate a given computation from the rest of a program?",
+      "answer": "- makes computation logically separate\n- makes program text clearer by naming computation\n- makes it possible to use / call computation in other places in program\n- eases testing and debugging",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 196,
+      "question": "What are Arguments within a function?",
+      "answer": "The value(s) required by a function; a function's input(s).",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 197,
+      "question": "What is the Input and Output of a function?",
+      "answer": "The argument(s) and return value.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 198,
+      "question": "What is the Block of a function?",
+      "answer": "The body of a function; the lis tof statements that do the work.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 199,
+      "question": "Are Return values within a function required?",
+      "answer": "No, but the argument(s) are.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 200,
+      "question": "What are Primitive Data Types?",
+      "answer": "Basic building blocks provided by Python and other languages.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 201,
+      "question": "What are Data Structures?",
+      "answer": "Complex data structures, often including built-in functions, or methods, for performing various operations on data contained within them.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 202,
+      "question": "What is a List.",
+      "answer": "In Python, it is a numbered sequence of elements.",
+      "topic": "Computation - Part 2"
+    },
+    {
+      "id": 203,
+      "question": "What are Methods?",
+      "answer": "Functions that are built in to an object.",
+      "topic": "Computation - Part 2"
     }
   ]
 }
