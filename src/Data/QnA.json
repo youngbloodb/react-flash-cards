@@ -16,7 +16,8 @@
     "Databases - Part 2",
     "Databases - Part 3",
     "Databases - Part 4",
-    "Computer Networks - Part 1"
+    "Computer Networks - Part 1",
+    "Computer Networks - Part 2"
   ],
   "cards": [
     {
@@ -1230,6 +1231,168 @@
       "question": "What are Methods?",
       "answer": "Functions that are built in to an object.",
       "topic": "Computation - Part 2"
+    },
+    {
+      "id": 204,
+      "question": "What is HTTP?",
+      "answer": "Hyper Text Transfer Protocol; defines structure of and how messages are exchanged.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 205,
+      "question": "What is HTTPS?",
+      "answer": "Hyper Text Transfer Protocol Secure; HTTP with an added security layer (SSL).",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 206,
+      "question": "What are the components of a HTTP Request?",
+      "answer": "The Verb / Method, URI / Path, Version, and Request Header and Message.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 207,
+      "question": "What are the components of a HTTP Response?",
+      "answer": "The Response Code / Status Code and Message, HTTP Version, and Reponse Header and Message.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 208,
+      "question": "What are the 4 Methods of HTTP?",
+      "answer": "GET, POST, PUT and DELETE.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 209,
+      "question": "What is the GET method of HTTP?",
+      "answer": "Method used to retried information provided by server--no effect on data.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 210,
+      "question": "What is the POST method of HTTP?",
+      "answer": "Method used to send information (request) to server; example is login forms.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 211,
+      "question": "What is the PUT method of HTTP?",
+      "answer": "Method used to update content of the source with current content.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 212,
+      "question": "What is the DELETE method of HTTP?",
+      "answer": "Method used to remove the content of source.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 213,
+      "question": "What is FTP?",
+      "answer": "File Transfer Protocol; transfer with either local file system or remote host.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 214,
+      "question": "What are the steps of FTP?",
+      "answer": "1. Client initiates TCP connection with remote host (default PORT 21)\n2. Control connection\n3. Data connection\n4. File transfer (multiple file transfers multiple data connections)",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 215,
+      "question": "What is SMTP?",
+      "answer": "Simple Mail Transfer Protocol; transfers message from sender's mail server to recipient's mail server.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 216,
+      "question": "What are the steps of SMTP?",
+      "answer": "1. Sender sends message via user agent to sender's mail server\n2. TCP connection established with receiver's mail server (includes hand shake)\n3. Message is transmitted to receiver's mail server\n4. Either POP / IMAP is used to read mail",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 217,
+      "question": "What does POP and IMAP stand for?",
+      "answer": "Post Office Protocol and Internet Message Access Protocol",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 218,
+      "question": "What is the DNS?",
+      "answer": "Domain Name System; method of mapping website URLs to IP addresses.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 219,
+      "question": "What are the 3 types of DNS servers?",
+      "answer": "Root DNS, Top-level Domain and Authoritative DNS.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 220,
+      "question": "What are the steps of a Basic DNS?",
+      "answer": "1. Request information\n2. Ask the recursive DNS servers (aka DNS resolver)\n3. Ask the root name servers\n4. Ask the TLD name servers\n5. Ask the the Authoritative DNS servers\n6. Retrieve the record\n7. Receive the answer and cache",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 221,
+      "question": "What is the Transport Layer?",
+      "answer": "Layer that provides logical communication between application processes running on different hosts; accepts data (segments) from application layer and forwards to network.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 222,
+      "question": "What are the two Transport Layer Protocols for the application layer?",
+      "answer": "TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 223,
+      "question": "What 4 controls are used by the Transport Layer to provide reliable data transfer?",
+      "answer": "- Error control\n- Sequence control: ensures arrival of packets are sequenced for reassembly\n- Loss control: uses sequence numbers to ensure replacement of missing packets \n- Duplication control: discards duplicate segments received",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 224,
+      "question": "What are the two major components of Process Communication?",
+      "answer": "The sending process, aka the client process, that sends the message to another system in the form of a request; The receiving process, aka server process, that receives the message and possibly responds with message back.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 225,
+      "question": "What step takes place in a TCP connection prior to data transfer?",
+      "answer": "The client and server process first establish a connection, called the Hand Shake Protocol, and then data is transferred via TCP sockets.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 226,
+      "question": "Why is a UDP considered an unreliable data transfer method?",
+      "answer": "It is a connection-less model: a handshake does not occur prior to data transfer.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 227,
+      "question": "What is Multiplexing and Demultiplexing?",
+      "answer": "Multiplexing is the gathering of chunks of data from different sockets by transport layer into segments with header data for one network layer; Demultiplexing is the opposite.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 228,
+      "question": "What is Routing?",
+      "answer": "The path that a packet takes from its source to destination.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 229,
+      "question": "What are Routing Algorithms?",
+      "answer": "Algorithms used to calculate source to destination paths for packets.",
+      "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 230,
+      "question": "What is Forward Routing?",
+      "answer": "The movement of a packet from a router's input link to the appropriate output link.",
+      "topic": "Computer Networks - Part 2"
     }
   ]
 }
