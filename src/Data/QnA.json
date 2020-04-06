@@ -17,7 +17,8 @@
     "Databases - Part 3",
     "Databases - Part 4",
     "Computer Networks - Part 1",
-    "Computer Networks - Part 2"
+    "Computer Networks - Part 2",
+    "Flowcharts and Pseudocode"
   ],
   "cards": [
     {
@@ -1393,6 +1394,42 @@
       "question": "What is Forward Routing?",
       "answer": "The movement of a packet from a router's input link to the appropriate output link.",
       "topic": "Computer Networks - Part 2"
+    },
+    {
+      "id": 231,
+      "question": "What is an Algorithm?",
+      "answer": "A step-by-step list of instructions for solving a problem.",
+      "topic": "Flowcharts and Pseudocode"
+    },
+    {
+      "id": 232,
+      "question": "What are the charecteristics of an algorithm?",
+      "answer": "- a finite number of well-defined instructions that can be effectively performed by a computing agent\n- a decription of a process that will halt after solving the problem\n- it solves a general class of problems",
+      "topic": "Flowcharts and Pseudocode"
+    },
+    {
+      "id": 233,
+      "question": "What are the components of programming flowchart?",
+      "answer": "- Terminal: (oval) start / stop of algorithm\n- Input / Output: (parallelogram) input or output\n- Process: (rectangle) processing operation\n- Decision: (diamond) a decision based on a question with more than one exit\n- Preparation: (hexagon) the initialization of variables\n- Connector: (circle) joins two or more flows",
+      "topic": "Flowcharts and Pseudocode"
+    },
+    {
+      "id": 234,
+      "question": "What is Pseudocode?",
+      "answer": "Informal method of writing algorithm instructions; useful for representing algorithms that are too long or complex to represent as flowcharts.",
+      "topic": "Flowcharts and Pseudocode"
+    },
+    {
+      "id": 235,
+      "question": "What are examples of selective logic in pseudocode?",
+      "answer": "IF, ENDIF, ELSEIF and ELSE",
+      "topic": "Flowcharts and Pseudocode"
+    },
+    {
+      "id": 236,
+      "question": "What are examples of loops in pseudocode?",
+      "answer": "DO, DOWHILE, and ENDDO",
+      "topic": "Flowcharts and Pseudocode"
     }
   ]
 }
