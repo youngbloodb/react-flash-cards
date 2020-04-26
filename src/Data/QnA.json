@@ -1522,6 +1522,108 @@
       "question": "What are the main types of cable?",
       "answer": "- Twisted pair cable (shielded and unshielded)\n- Coaxial cable\n- Fiber Optic",
       "topic": "Computer Networks - Part 3"
+    },
+    {
+      "id": 252,
+      "question": "What is Formal Logic?",
+      "answer": "The foundation for organized method of thinking that characterizes reasoned activity; focused on the relationships of statements, as opposed to the content of a particular statement.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 253,
+      "question": "What is the Study of Reasoning?",
+      "answer": "Study of whether something is true or false.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 254,
+      "question": "What are the applications of formal logic in computer science?",
+      "answer": "- Circuit logic: logic governing computer circuitry\n- Conditions: allow programmers to make decisions based the state of environment (represented with variables)",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 255,
+      "question": "What is a Statement?",
+      "answer": "Also called a proposition; a sentence that is either true or false; truth value is either True (1) or False (0).",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 256,
+      "question": "What are the Logical Connectives?",
+      "answer": "- ˄ = conjunction (and)\n- ˅ = disjunction (or)\n- ~ = negation (not)\n- → = implication (if-then)",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 257,
+      "question": "What is a Statement / Propositional Form?",
+      "answer": "Expression consisting of statement variables and logical connectives; they become a statement when actual statements are substituted for the component statement variables; Example: (A˄~A) →  (B˄~C)",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 258,
+      "question": "When is A ˄ B (A and B) true and when is it false?",
+      "answer": "- True when both A and B are true\n- False when at least one of A or B is false",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 259,
+      "question": "When is A ˅ B (A or B) true and when is it false?",
+      "answer": "- True when at least one of A or B are true\n- False when both A and B is false",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 260,
+      "question": "When is A → B (if A then B) true and when is it false?",
+      "answer": "- True if A is false, regardless of truth of B\n- Flase when A is true and B is false; true otherwise",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 261,
+      "question": "What is a Truth Table?",
+      "answer": "A table that displays the truth values of a statement corresponding to the different combinations of possible truth values for variables.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 262,
+      "question": "What is a WFF",
+      "answer": "Well-formed formula; combination of letters, connectives and parentheses than generates a expression that is meaningful.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 263,
+      "question": "What is the Order of Precedence?",
+      "answer": "Order stipulated in which connectives can be applied:\n1. Connectives within innermost parentheses first and then progress outwards\n2. Negation (~)\n3. Conjunction (˄)\n4. Implication (→)\n5. Equivalence (↔)",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 264,
+      "question": "What is a Tautology?",
+      "answer": "A WFF that is intrisically true, regardless of the truth values of its statements; e.g. it will rain today or it will not rain today (A˅~A); usually represented by a 1.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 265,
+      "question": "What is a Contradiction?",
+      "answer": "A WFF that is intrisically false, regardless of the truth values of its statements; e.g. it will rain today and it will not rain today (A˄~A); usually represented by a 0.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 266,
+      "question": "When are two statements forms called logically equivalent?",
+      "answer": "If they have identical truth values for each possible substition of statements for their statement variables; represented by P⇔Q or P≡Q.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 267,
+      "question": "What are the common Tautological Equivalences?",
+      "answer": "Commutative, Associative, Distributive, Identity and Complement.",
+      "topic": "Logic and Truth Tables"
+    },
+    {
+      "id": 268,
+      "question": "What are DeMorgan's Laws?",
+      "answer": "- ~(A˅B) ≡ ~A˄~B\n- ~(A˄B) ≡ ~A˅~B",
+      "topic": "Logic and Truth Tables"
     }
   ]
 }
