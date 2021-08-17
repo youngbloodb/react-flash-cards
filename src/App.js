@@ -1,80 +1,78 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import Card from './Card/Card';
-import QnA from './Data/QnA';
+import React, { useState, useEffect } from "react";
+import styles from "./App.module.css";
+import Card from "./Card/Card";
+import Button from "./Button/Button";
+import QnA from "./Data/QnA";
 
 const App = () => {
   //state getters / setters
-  const [cards, setCards] = useState(QnA.cards);
+  const [cards] = useState(QnA.cards);
   const [currentCard, setCurrentCard] = useState({});
   const [currentTopic, setCurrentTopic] = useState(QnA.topics[0]);
-  const [cardFacing, setCardFacing] = useState('front');
+  const [cardFacing, setCardFacing] = useState("Front");
 
   //card selection
-  useEffect(() => {
-    updateCard();
-  }, [cards, currentTopic]);
+  useEffect(
+    () => drawNewCard(),
+    [cards, currentTopic] // eslint-disable-line react-hooks/exhaustive-deps
+  );
 
-  const getRandomCard = currentCards => {
-    const card = currentCards[Math.floor(Math.random() * currentCards.length)];
-    return card;
+  const getRandomCard = (currentCards) => {
+    return currentCards[Math.floor(Math.random() * currentCards.length)];
   };
 
-  const updateCard = () => {
-    setCardFacing('front');
+  const drawNewCard = () => {
+    setCardFacing("Front");
     setTimeout(() => {
       const currentCards = getCardsByTopic(currentTopic);
       setCurrentCard(getRandomCard(currentCards));
     }, 400);
   };
 
-  const getCardsByTopic = topic => {
-    if (topic === 'All topics') {
-      return cards;
-    } else {
-      return cards.filter(card => card.topic === topic);
-    }
+  const getCardsByTopic = (topic) => {
+    return topic === "All topics"
+      ? cards
+      : cards.filter((card) => card.topic === topic);
   };
 
   const rotateCard = () => {
-    setCardFacing(cardFacing === 'front' ? 'back' : 'front');
+    setCardFacing(cardFacing === "Front" ? "Back" : "Front");
   };
 
   //topics selection
-  const getTopicOptions = topics => {
+  const getTopicOptions = (topics) => {
     return topics.map((location, index) => (
       <option key={index}>{location}</option>
     ));
   };
 
-  const topicChange = evt => {
-    const elem = evt.currentTarget;
-    const elemValue = elem.options[elem.selectedIndex].value;
-    setCurrentTopic(elemValue);
-    updateCard();
-  };
-
   return (
-    <div className='App'>
-      <select className='topicsSelect' onChange={evt => topicChange(evt)}>
+    <div className={styles.main}>
+      <select
+        className={styles.topicsSelect}
+        onChange={(e) => setCurrentTopic(e.target.value)}
+      >
         {getTopicOptions(QnA.topics)}
       </select>
-      <div className='cardRow'>
-        <Card
-          question={currentCard.question}
-          answer={currentCard.answer}
-          topic={currentCard.topic}
-          face={cardFacing}
-        />
-      </div>
-      <div className='buttonRow'>
-        <div className='button-container'>
-          <button className='btn btn--rotate' onClick={rotateCard}>
-            Rotate Card
-          </button>
-          <button className='btn btn--draw' onClick={updateCard}>
-            Draw Card
-          </button>
+      <Card
+        question={currentCard.question}
+        answer={currentCard.answer}
+        topic={currentCard.topic}
+        face={cardFacing}
+        handleClick={rotateCard}
+      />
+      <div className={styles.flexRow}>
+        <div className={styles.buttonWrapper}>
+          <Button
+            classList={["btn", "rotateBtn"]}
+            mouseUpHandler={rotateCard}
+            text={"Rotate Card"}
+          />
+          <Button
+            classList={["btn", "drawBtn"]}
+            mouseUpHandler={drawNewCard}
+            text={"Draw Card"}
+          />
         </div>
       </div>
     </div>

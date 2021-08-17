@@ -1,25 +1,27 @@
-import React from 'react';
-import './Card.css';
-import { Markup } from 'interweave';
+import React from "react";
+import styles from "./Card.module.css";
+import { Markup } from "interweave";
 
-const Card = props => {
-  let { question, answer, topic, face } = props;
-
+const Card = ({ question, answer, topic, face, handleClick }) => {
   return (
-    <div className='card-container'>
-      <div className={`card card--${face}`}>
-        <div className='front'>
-          <div className='question'>
+    <div className={styles.outerWrapper}>
+      <div
+        className={`${styles.innerWrapper} ${styles["innerWrapper" + face]}`}
+        onClick={handleClick}
+        title="Rotate Card"
+      >
+        <div className={styles.front}>
+          <div className={styles.question}>
             <Markup content={question} />
           </div>
         </div>
-        <div className='back'>
-          <div className='answer'>
+        <div className={styles.back}>
+          <div className={styles.answer}>
             <Markup content={answer} />
           </div>
         </div>
       </div>
-      <div className='topic'>{topic}</div>
+      <div className={styles.topic}>{topic}</div>
     </div>
   );
 };
